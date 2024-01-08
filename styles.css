@@ -1,7 +1,51 @@
-h3 {
-  color: #dd0505;
+/* css universal reset */
+
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-h4{
-  color: blue;
+/* body {
+  font-family: 'Inter', sans-serif;
+} */
+
+/* header */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.hero-banner {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(./images/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-banner h3 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero .hero-banner h1 {
+  color: #fff;
+
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  margin-top: 16px;
 }
