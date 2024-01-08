@@ -420,6 +420,16 @@
   margin-top: 24px;
 }
 
+/* hover effect */
+
+.product-list img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-list img:hover {
+  transform: scale(1.1);
+}
+
 /* start of footer */
 .newsletter-container {
   display: flex;
