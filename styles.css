@@ -101,6 +101,7 @@
 .section-image {
   display: flex;
   justify-content: center;
+  margin-top: 120px;
 }
 .card-image {
   width: 1320px;
@@ -111,8 +112,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-around;
 }
 
+.card-text-grp {
+  margin-left: 126px;
+}
 .card-heading {
   color: #fff;
   font-family: Merriweather;
@@ -121,6 +126,7 @@
   font-weight: 900;
   line-height: 88px; /* 137.5% */
   letter-spacing: 7.04px;
+  margin-bottom: 24px;
 }
 .card-text {
   color: rgba(255, 255, 255, 0.8);
@@ -128,7 +134,9 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  margin-bottom: 48px;
+  width: 87%;
 }
 .card-btn {
   color: #fff;
@@ -141,4 +149,9 @@
   text-transform: uppercase;
   border: none;
   background: none;
+  margin-left: 32px;
+}
+
+.card-mage-right {
+  margin-right: 138px;
 }
