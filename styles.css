@@ -550,7 +550,8 @@ input::placeholder {
   height: 1px;
   resize: horizontal;
   overflow: hidden;
-  background-color: #ccc;
+  background: rgba(255, 255, 255, 0.15);
+  /* background-color: #ccc; */
   margin: 50px auto;
 }
 
