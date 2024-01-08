@@ -287,7 +287,7 @@
 .sell-body {
   margin-top: 120px;
   width: 1600px;
-  height: 7335px;
+  /* height: 7335px; */
 }
 .sell-title {
   color: #070211;
@@ -326,7 +326,6 @@
 
 .sell-image-container {
   display: flex;
-
   justify-content: center;
   align-items: flex-end;
 }
@@ -367,4 +366,71 @@
   height: 229px;
   border-radius: 16px 0px 16px 16px;
   background: #f00;
+}
+
+/* product part starts here  */
+.product-container {
+  margin-top: 120px;
+  display: flex;
+
+  justify-content: center;
+}
+
+.product-main {
+  width: 1320px;
+  height: auto;
+}
+
+.Portfolio-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: start;
+}
+.Portfolio-info {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  text-align: start;
+  margin-top: 16px;
+}
+.Portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: start;
+  margin-top: 22px;
+}
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.product-list-top {
+  margin-top: 48px;
+}
+
+.product-list-btm {
+  margin-top: 24px;
+}
+
+/* start of footer */
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-main {
+  margin-top: 120px;
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
 }
